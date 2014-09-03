@@ -1,7 +1,6 @@
 body {
     font-family:helvetica;
     background:#f8f8f8;
-    color:#000;
     max-width:640px;
     margin:0 auto
 }
@@ -10,18 +9,21 @@ body {
     font-size:72px;
     text-align:center;
     font-weight:400;
-    color:#191919;
-    border-bottom:solid 1px #ccc;
-    max-width:640px;
-    margin:0 auto;
-    padding-top:30px
+    padding-top:290px
 }
 
-#h5 {
-    text-align:center;
+#header a {
+    text-decoration:none;
     color:#4c4c4c
 }
 
-#video1 {
-    text-align:center
+#header a:hover {
+    color:#0c0c0c;
+    transition:.4s
+}
+
+#subheader p {
+    text-align:center;
+    color:#a6a6a6;
+    font-size:28px
 }
