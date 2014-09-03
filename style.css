@@ -1,0 +1,27 @@
+body {
+    font-family:helvetica;
+    background:#f8f8f8;
+    color:#000;
+    max-width:640px;
+    margin:0 auto
+}
+
+#header {
+    font-size:72px;
+    text-align:center;
+    font-weight:400;
+    color:#191919;
+    border-bottom:solid 1px #ccc;
+    max-width:640px;
+    margin:0 auto;
+    padding-top:30px
+}
+
+#h5 {
+    text-align:center;
+    color:#4c4c4c
+}
+
+#video1 {
+    text-align:center
+}
