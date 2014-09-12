@@ -1,7 +1,7 @@
 a {
     text-decoration:none;
     color:#f5f1de;
-    padding:1em
+    padding:.5em
 }
 
 a:hover {
@@ -23,7 +23,7 @@ body {
     font:16pt/1.5 'Myriad Pro',Calibri,Helvetica,Arial,sans-serif;
     text-align:center;
     font-size:18pt;
-    padding-top:.5em;
+    padding-top:.2em;
     display:inline-block;
     margin:0 auto
 }
@@ -40,8 +40,8 @@ body {
     text-align:center;
     color:#454545;
     font-weight:400;
-    padding-top:1.5em;
-    padding-bottom:.2em;
+    padding-top:1em;
+    padding-bottom: .1em;
     font-size:48pt;
     max-width:740px;
     margin:0 auto;
@@ -53,7 +53,7 @@ body {
     max-width:640px;
     margin:0 auto;
     font-size:20pt;
-    padding-top:1em;
+    padding-top:.5em;
     padding-bottom:2em
 }
 
@@ -74,5 +74,5 @@ body {
 }
 
 #wrapper {
-    padding-right:210px
+    padding-right:220px
 }
