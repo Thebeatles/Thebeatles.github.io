@@ -1,51 +1,58 @@
 a {
     text-decoration:none;
-    color:#a6a6a6;
-    padding:.5em;
-    margin:1em .5em
+    color:#fff;
+    padding:1em
 }
 
 a:hover {
     text-decoration:none;
-    color:gray
+    color:#c1c1c1
 }
 
 body {
     font-family:Helvetica,arial,freesans,clean,sans-serif;
-    overflow-y:scroll
+    overflow-y:scroll;
+    background-image:url(beatlesbackground3.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover
 }
 
 #nav {
     clear:both;
-    text-align:left;
     font:16pt/1.5 'Myriad Pro',Calibri,Helvetica,Arial,sans-serif;
-    padding-left:.625em;
-    display:inline-block;
-    margin:5px auto
+    text-align:center;
+    font-size:18pt;
+    padding-top:.5em
 }
 
 .header {
     text-align:center;
-    color:#66a3e0;
+    color:#fff;
     font-weight:400;
     padding-top:1.5em;
+    padding-bottom:.2em;
     font-size:48pt;
-    max-width:640px;
+    max-width:740px;
     margin:0 auto;
     border-bottom:#ccc solid 1px
 }
 
 .main {
-    color:#737373;
+    color:#f4f4f4;
     max-width:640px;
     margin:0 auto;
     font-size:20pt;
-    padding-top:1.67em;
+    padding-top:1em;
     padding-bottom:2em
 }
 
-.topheadertext {
-    color:#ccc;
-    float:right;
-    padding:.5em
+#comingsoon {
+    text-align:center;
+    color:#f4f4f4;
+    font-size:36pt
 }
