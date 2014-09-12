@@ -1,21 +1,18 @@
 a {
     text-decoration:none;
-    color:#fff;
+    color:#f5f1de;
     padding:1em
 }
 
 a:hover {
     text-decoration:none;
-    color:#c1c1c1
+    color:#a78955
 }
 
 body {
     font-family:Helvetica,arial,freesans,clean,sans-serif;
     overflow-y:scroll;
-    background-image:url(beatlesbackground3.jpg);
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-attachment:fixed;
+    background:url(wallpaper.jpg) no-repeat center center fixed;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
@@ -23,27 +20,36 @@ body {
 }
 
 #nav {
-    clear:both;
     font:16pt/1.5 'Myriad Pro',Calibri,Helvetica,Arial,sans-serif;
     text-align:center;
     font-size:18pt;
-    padding-top:.5em
+    padding-top:.5em;
+    display:inline-block;
+    margin:0 auto
+}
+
+#topheader {
+    float:right;
+    color:#f5f1de;
+    font-size:14px;
+    font-style:italic;
+    padding-right: 10px;
 }
 
 .header {
     text-align:center;
-    color:#fff;
+    color:#454545;
     font-weight:400;
     padding-top:1.5em;
     padding-bottom:.2em;
     font-size:48pt;
     max-width:740px;
     margin:0 auto;
-    border-bottom:#ccc solid 1px
+    border-bottom:#888888 solid 1px
 }
 
 .main {
-    color:#f4f4f4;
+    color:#454545;
     max-width:640px;
     margin:0 auto;
     font-size:20pt;
@@ -51,8 +57,22 @@ body {
     padding-bottom:2em
 }
 
-#comingsoon {
+#img {
+    text-align:center
+}
+
+#img a {
     text-align:center;
-    color:#f4f4f4;
-    font-size:36pt
+    color:#454545;
+    display:block;
+    font:16pt/1.5 'Myriad Pro',Calibri,Helvetica,Arial,sans-serif
+}
+
+#img a:hover {
+    text-decoration:none;
+    color:#454545
+}
+
+#wrapper {
+    padding-right:210px
 }
