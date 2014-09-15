@@ -68,6 +68,18 @@ a:hover {
     padding-top:.5em
 }
 
+.mainsources {
+    font-size:20pt;
+    padding-top:.5em;
+    color:#fff;
+    width:70%;
+    margin:0 auto
+}
+
+.mainsources h1 {
+    text-decoration:underline
+}
+
 .img {
     text-align:center;
     padding-top:.5em
@@ -119,4 +131,63 @@ a:hover {
     text-align:right;
     padding-right:1em;
     color:#f4f4f4
+}
+
+/*  SECTIONS  */
+.section {
+    clear:both;
+    padding:0;
+    margin:0
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display:block;
+    float:left;
+    margin:1% 0 1% 10%
+}
+
+.col:first-child {
+    margin-left:0
+}
+
+/*  GROUPING  */
+.group:before,.group:after {
+    content:"";
+    display:table
+}
+
+.group:after {
+    clear:both
+}
+
+.group {
+    zoom:1
+/* For IE 6/7 */
+}
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+    width:100%
+}
+
+.span_1_of_2 {
+    width:45%
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+.col {
+    margin:1% 0
+}
+}
+
+@media only screen and (max-width: 480px) {
+.span_2_of_2 {
+    width:100%
+}
+
+.span_1_of_2 {
+    width:100%
+}
 }
