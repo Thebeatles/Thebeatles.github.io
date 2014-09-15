@@ -7,7 +7,8 @@ html {
 body {
     font-family:Helvetica,arial,freesans,clean,sans-serif;
     overflow-y:scroll;
-    margin:0 0 100px
+    margin:0 0 100px;
+    background-color: #fff
 }
 
 a {
@@ -22,7 +23,7 @@ a:hover {
 }
 
 .navcontainer {
-    background-color:#1b85b8;
+    background-color:#0392cf;
     width:100% -webkit-box-shadow: 0 3px 14px -3px rgba(50,50,50,0.63);
     -moz-box-shadow:0 3px 14px -3px rgba(50,50,50,0.63);
     box-shadow:0 3px 14px -3px rgba(50,50,50,0.63)
@@ -32,7 +33,7 @@ a:hover {
     font:16pt/1.5 'Myriad Pro',Calibri,Helvetica,Arial,sans-serif;
     font-size:18pt;
     padding-top:.2em;
-    text-align:left
+    text-align:left;
 }
 
 .nav ul {
@@ -67,26 +68,12 @@ a:hover {
     padding-top:.5em
 }
 
-.wrapper {
-    padding-top:2em
-}
-
-.left {
-    float:left;
-    width:30%;
-    color:#00aedb;
-    font-size:20pt;
-    margin-left: 200px;
-}
-
-.right {
-    float:right;
-    width:35%;
+.img {
     text-align:center;
-    margin-right: 200px;
+    padding-top: .5em;
 }
 
-.right img {
+.img img {
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
     border-radius:10px;
@@ -97,27 +84,21 @@ a:hover {
     box-shadow:3px 1px 20px -3px rgba(50,50,50,0.63)
 }
 
-.right a {
+.img a {
     display:table;
     padding:.5em;
     font-size:16pt;
     color:#fff;
-    background:#ae5a41;
+    background:#ae5a41;;
     margin:1em auto;
     border-radius:3px
 }
 
-.right a:hover {
+.img a:hover {
     text-decoration:none;
     background:#559e83
 }
 
-@media screen and (max-width: 480px) {
-.left,.right {
-    float:none;
-    width:auto
-}
-}
 
 .footer {
     background-color:#5a5255;
