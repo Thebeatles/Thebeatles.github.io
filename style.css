@@ -8,7 +8,7 @@ body {
     font-family:Helvetica,arial,freesans,clean,sans-serif;
     overflow-y:scroll;
     margin:0 0 100px;
-    background-color: #fff
+    background-color:#333
 }
 
 a {
@@ -19,11 +19,11 @@ a {
 
 a:hover {
     text-decoration:none;
-    color:#c3cb71
+    color:#edb6b6
 }
 
 .navcontainer {
-    background-color:#0392cf;
+    background-color:#D44A4A;
     width:100% -webkit-box-shadow: 0 3px 14px -3px rgba(50,50,50,0.63);
     -moz-box-shadow:0 3px 14px -3px rgba(50,50,50,0.63);
     box-shadow:0 3px 14px -3px rgba(50,50,50,0.63)
@@ -33,7 +33,7 @@ a:hover {
     font:16pt/1.5 'Myriad Pro',Calibri,Helvetica,Arial,sans-serif;
     font-size:18pt;
     padding-top:.2em;
-    text-align:left;
+    text-align:left
 }
 
 .nav ul {
@@ -53,7 +53,7 @@ a:hover {
 }
 
 .header {
-    color:#00aedb;
+    color:#fff;
     font-weight:400;
     font-size:48pt;
     text-align:center;
@@ -61,7 +61,7 @@ a:hover {
 }
 
 .main {
-    color:#00aedb;
+    color:#fff;
     max-width:640px;
     margin:0 auto;
     font-size:20pt;
@@ -70,7 +70,7 @@ a:hover {
 
 .img {
     text-align:center;
-    padding-top: .5em;
+    padding-top:.5em
 }
 
 .img img {
@@ -89,19 +89,18 @@ a:hover {
     padding:.5em;
     font-size:16pt;
     color:#fff;
-    background:#ae5a41;;
+    background:#5b5b5b;
     margin:1em auto;
-    border-radius:3px
+    border-radius:1px
 }
 
 .img a:hover {
     text-decoration:none;
-    background:#559e83
+    background:#474747
 }
 
-
 .footer {
-    background-color:#5a5255;
+    background-color:#474747;
     position:absolute;
     left:0;
     bottom:0;
@@ -121,4 +120,3 @@ a:hover {
     padding-right:1em;
     color:#f4f4f4
 }
-
