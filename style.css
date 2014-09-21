@@ -162,8 +162,8 @@ a:hover {
 }
 
 .group {
-    zoom:1
-/* For IE 6/7 */
+    zoom:/* For IE 6/7 */
+1
 }
 
 /*  GRID OF TWO  */
